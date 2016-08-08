@@ -1,0 +1,87 @@
+body {
+    background-image: url(Minions.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;        
+}
+
+#photoGru {
+    width: 170px;
+    float: left;
+    margin-right: 40px;
+}
+
+.gru {
+    max-width: 800px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 40px;
+    overflow: hidden;
+}
+
+p {
+    text-indent: 1.5em; 
+    text-align: justify;
+}
+
+menu {
+    width: 900px;
+    height: 50px;
+    background-color: cornflowerblue;
+    margin: 0px auto;
+    padding: 0px;
+
+}
+
+menu ul {
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px auto;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue;
+    table-layout: fixed;
+}
+
+menu ul a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 2em;
+}
+
+li {
+    float:left;
+}
+
+.mult {
+    max-width: 800px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 40px;
+    overflow: hidden;
+}
+
+figure {
+    float: left;
+    width: 198px; /* Ширина области */
+    height: 198px; /* Высота области */
+    margin: 1px; /* Обнуляем отступы */
+    overflow: hidden; /* Прячем всё за пределами */
+    min-width: 50px; /* Минимальная ширина */
+}
+
+figure img { 
+    height: 100%; /* Ширина изображений */
+    margin: -10% -30% 0 -40%; /* Сдвигаем вверх */
+}
+
+.formComment {
+    width: 800px;
+    height: 70px;
+}
